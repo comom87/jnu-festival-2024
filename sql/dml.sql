@@ -109,3 +109,5 @@ VALUES (4, 'https://example.com/images/boothD1.jpg');
 
 INSERT INTO booth_image (booth_id, url)
 VALUES (5, 'https://example.com/images/boothE1.jpg');
+
+abc
