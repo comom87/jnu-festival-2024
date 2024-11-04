@@ -61,7 +61,6 @@ public class SecurityConfig {
                 .headers(headerConfig -> headerConfig.frameOptions(HeadersConfigurer.FrameOptionsConfig::sameOrigin))
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers("/api/v1/login",
-                                "/api/v1/users/check-admins",
                                 "/api/v1/zones/**",
                                 "/api/v1/partners/**",
                                 "/api/v1/contents/**",
